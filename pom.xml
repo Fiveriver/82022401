@@ -11,7 +11,8 @@
 	<groupId>com.example</groupId>
 	<artifactId>template</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>template</name>
+	<!-- 프로젝트명 수정 -->
+	<name>82022401</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>

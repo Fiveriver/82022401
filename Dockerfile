@@ -12,4 +12,4 @@ COPY target/template-0.0.1-SNAPSHOT.jar .
 EXPOSE 8080
 
 # Command to run the Java application
-CMD ["java", "-jar", "myapp.jar"]
+CMD ["java", "-jar", "template-0.0.1-SNAPSHOT.jar"]

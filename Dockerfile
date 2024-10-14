@@ -6,10 +6,10 @@ FROM cepgbaseacr.azurecr.io/docker.io/openjdk:17-slim
 WORKDIR /app
 
 # Copy the Java application JAR file
-COPY target/template-0.0.1-SNAPSHOT.jar .
+COPY target/template-0.0.1-SNAPSHOT.jar /app/template-0.0.1-SNAPSHOT.jar
 
 # Expose the application port (예: 8080)
 EXPOSE 8080
 
 # Command to run the Java application
-CMD ["java", "-jar", "template-0.0.1-SNAPSHOT.jar"]
+#CMD ["java", "-jar", "template-0.0.1-SNAPSHOT.jar"]

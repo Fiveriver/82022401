@@ -1,4 +1,7 @@
-
+configMapGenerator:
+  - files:
+      - application.yml
+    name: "82022401-configmap"
 resources:
   - pvc.yaml
 patchesStrategicMerge:

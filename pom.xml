@@ -36,10 +36,11 @@
 		<url>https://maven.pkg.github.com/fiveriver/82022401</url>
 		</repository>
 	</repositories>
+
 	<distributionManagement>
 		<repository>
 		<id>github</id>
-		<name>GitHub axccoe Apache Maven Packages</name>
+		<name>GitHub Apache Maven Packages</name>
 		<url>https://maven.pkg.github.com/fiveriver/82022401</url>
 		</repository>
 	</distributionManagement>

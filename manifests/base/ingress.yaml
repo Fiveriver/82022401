@@ -5,7 +5,7 @@ metadata:
 spec:
   ingressClassName: ingress-internal
   rules:
-    - host: "app1.82022401.ce-aa.kubepia.net"
+    - host: "app1-82022401.ce-aa.kubepia.net"
       http:
         paths:
           - path: /

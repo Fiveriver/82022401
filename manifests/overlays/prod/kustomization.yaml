@@ -13,4 +13,4 @@ kind: Kustomization
 namePrefix: prod-
 images:
 - name: ceappacr.azurecr.io/82022401
-  newTag: "202410141007"
+  newTag: "202410141021"

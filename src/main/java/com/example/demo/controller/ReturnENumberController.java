@@ -8,7 +8,7 @@ import java.util.Map;
 @RestController
 public class ReturnENumberController {
 
-    @GetMapping("/api/usernumber")
+    @GetMapping("/api/v1/user")
     public Map<String, String> getUserId() {
 
         Map<String, String> response = new HashMap<>();
